@@ -25,8 +25,8 @@ public class ArrayUtil {
 
         int min = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
+            if (array[i] < array.length) {
+                min=array[i];
             }
         }
         System.out.println("min" + min);
@@ -77,12 +77,12 @@ public class ArrayUtil {
         }
         System.out.println("Average" + result / array.length);
 
-        int element=0;
+        int element = 0;
         for (int i = 0; i < array.length; i++) {
-            result=result+array[i];
+            result = result + array[i];
 
         }
-        System.out.println("element"+result);
+        System.out.println("element" + result);
 
 
     }
