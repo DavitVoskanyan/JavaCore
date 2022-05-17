@@ -23,9 +23,9 @@ public class ArrayUtil {
         System.out.println();
 
 
-        int min = 0;
+        int min = array[0];
         for (int i = 0; i < array.length; i++) {
-            if (array[i] < array.length) {
+            if (array[i] < min) {
                 min=array[i];
             }
         }
