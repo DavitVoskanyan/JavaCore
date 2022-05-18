@@ -70,7 +70,7 @@ public class ArrayUtil {
         }
         System.out.println("oddCount" + oddCount);
 
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
 
@@ -78,7 +78,7 @@ public class ArrayUtil {
         System.out.println("sum" + sum);
 
         double avg = sum / array.length;
-        System.out.println( " avg" +avg);
+        System.out.println(" avg" + avg);
 
 
     }
