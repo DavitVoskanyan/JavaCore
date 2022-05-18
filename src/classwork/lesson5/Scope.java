@@ -9,7 +9,6 @@ public class Scope {
             System.out.println("x ev y:" + x + "" + y);
             x = y * 2;
         }
-        // y =100;
-        System.out.println("x havasar"+x);
+        System.out.println("x равно "+x);
     }
 }

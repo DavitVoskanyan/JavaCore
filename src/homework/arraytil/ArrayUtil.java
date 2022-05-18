@@ -13,7 +13,7 @@ public class ArrayUtil {
         System.out.println();
 
 
-        int max = 0;
+        int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
@@ -26,7 +26,7 @@ public class ArrayUtil {
         int min = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
-                min=array[i];
+                array[i] = min;
             }
         }
         System.out.println("min" + min);
@@ -69,20 +69,16 @@ public class ArrayUtil {
             }
         }
         System.out.println("oddCount" + oddCount);
-        int Average = 0;
-        int result = 0;
+
+        int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            result = result + array[i];
+            sum = sum + array[i];
 
         }
-        System.out.println("Average" + result / array.length);
+        System.out.println("sum" + sum);
 
-        int element = 0;
-        for (int i = 0; i < array.length; i++) {
-            result = result + array[i];
-
-        }
-        System.out.println("element" + result);
+        double avg = sum / array.length;
+        System.out.println( " avg" +avg);
 
 
     }

@@ -8,10 +8,9 @@ public class Matrix {
                 {0 * 2, 1 * 2, 2 * 2, 3 * 2},
                 {0 * 3, 1 * 3, 2 * 3, 3 * 3},
         };
-        int i, j;
         for (int k = 0; k < 4; k++) {
             for (int l = 0; l < 4; l++)
-                System.out.print( m[k][l] +" ");
+                System.out.print(m[k][l] + " ");
             System.out.println();
 
         }
