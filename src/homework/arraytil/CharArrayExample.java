@@ -7,49 +7,47 @@ public class CharArrayExample {
         int count = 0;
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == 'o') {
-
+                count++;
             }
         }
-        count++;
+
         System.out.println(count);
 
         char[] chars2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e',};
 
         System.out.print(" 2 символы" + " " + chars2[chars2.length / 2 - 1]);
+        System.out.println(chars2[chars.length / 2]);
+        System.out.println();
 
-        System.out.println(" " + chars2[chars2.length / 2]);
 
         char[] chars3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y'};
-        boolean b;
-
-        if (chars3[chars3.length - 1] == 'y') {
-            if (chars3[chars3.length - 2] == 'l') {
-                b = true;
-
-            }
-        } else if (chars3[chars3.length - 1] == 'y') {
-            if (chars3[chars3.length - 2] == 'l') {
-                b = false;
-            }
+        char e = 'y';
+        char f = 'l';
+        boolean b = false;
+        if (chars3[chars3.length - 1] == e) {
+            boolean a = true;
+            System.out.println(a);
         }
-        System.out.println("если b равно true");
+
 
         char[] bobArray = {'b', 'a', 'b', 'o', 'l', 'a',};
-        char Bob = 'b';
-         b= false;
+        char l = 'b';
+        boolean a=false;
+
         for (int i = 0; i < bobArray.length; i++) {
 
-            if (bobArray[i] == Bob && bobArray[i + 2] == Bob) {
-                b = true;
+            if (bobArray[i] == l && bobArray[i + 2] == l) {
+                a = true;
+                break;
             }
-
-            break;
         }
-        System.out.println(b);
+        System.out.println(a);
 
         char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
         char spase = ' ';
-        for (int i = 0; i < text.length; i++) {
+        for (
+                int i = 0;
+                i < text.length; i++) {
             if (text[i] != spase) {
                 System.out.print(text[i]);
             }
