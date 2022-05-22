@@ -1,4 +1,4 @@
-package homework;
+package homework.chetver1;
 
 public class Figure3Painter {
     public static void main(String[] args) {
