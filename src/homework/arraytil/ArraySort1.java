@@ -1,8 +1,8 @@
 package homework.arraytil;
 
-public class ArraySort {
-    public static void main(String[] args) {
-        int[] numbers = {43, 55, 5, -9, 0, 12, 5, 65};
+public class ArraySort1 {
+
+    int[] growth(int[] numbers) {
         int min = numbers[0];
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers.length - 1; j++) {
@@ -13,21 +13,10 @@ public class ArraySort {
                 }
             }
         }
-        for (int k = 0; k < numbers.length; k++) {
 
-            System.out.print(":" + numbers[k]);
-        }
-
+        return numbers ;
     }
+
 }
-
-
-
-
-
-
-
-
-
 
 
