@@ -20,8 +20,8 @@ public class PracticeHomework {
     //վերադարձնել տրված թվի հաջորդ թիվը
     int nextNumber(int number) {
         int num;
-        num = 0;
-        num++;
+        num = number +1;
+
         return num;
     }
 
@@ -62,12 +62,11 @@ public class PracticeHomework {
     }
 
     //վերադարձնել երկու մասիվի ամենամեծ length-ը
-    int[] maxLength(int[] array1, int[] array2) {
-        int[] arr1 = new int[17];
-        int[] arr2 = new int[7];
+    int maxLength(int[] array1, int[] array2) {
 
+        return    array1.length>array2.length?array1.length:array2.length;
+        }
 
-        return array1;
 
     }
-}
+
