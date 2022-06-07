@@ -1,20 +1,20 @@
-package classwork.lesson11;
+package homework.BraceChecker;
 
-public class Stack {
+public class Stack1 {
 
     int[] stack = new int[10];
     int tos;
 
-     Stack() {
+    public Stack1() {
         tos = -1;
     }
-    void push(int item) {
+    public   void push(int item) {
         if (tos == 9)
             System.out.println("Стек заполнен.");
         else
             stack[++tos] = item;
     }
-        int pop(){
+  public   int pop(){
         if (tos < 0) {
             System.out.println("Стек не загру");
             return 0;
@@ -23,4 +23,3 @@ public class Stack {
             return stack[tos--];
     }
 }
-
