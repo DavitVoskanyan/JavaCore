@@ -1,7 +1,9 @@
 package classwork.lesson12;
 
 public class Test {
-    int a, b;
+   public int a, b;
+   private int c;
+
 
     Test(int i, int j) {
         a = i;
@@ -24,14 +26,22 @@ public class Test {
         o.a *=2;
         o.b/=2;
     }
-    Test(int i){
-        a=i;
+    Test(int i) {
+        a = i;
 
     }
+
     Test IncrByTen() {
 
 
         Test temp = new Test(a + 10);
         return temp;
     }
+    void setC (int i){
+        c=i;
+    }
+    int getC(){
+        return  c;
+    }
+
 }
