@@ -9,14 +9,15 @@ public class UseStatic {
         System.out.println("a=" + a);
         System.out.println("b=" + b);
     }
-        static  {
-            System.out.println("статические блок инициализирован.");
-            b = a * 4;
-        }
+
+    static {
+        System.out.println("статические блок инициализирован.");
+        b = a * 4;
+    }
 
 
     public static void main(String[] args) {
-        meth (42);
+        meth(42);
 
     }
 }

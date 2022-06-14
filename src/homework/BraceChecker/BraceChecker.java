@@ -4,7 +4,8 @@ public class BraceChecker {
     //գրել ծրագիր որը կստուգի տեքստի մեջ պակագծերի դասավորությունը։
     //Փակագծերի տեսակներն են։{,[,(
     private String text;
-
+   final Stack1  stack = new Stack1();
+   final Stack1  For = new Stack1();
     //կլասսի կոնստուկտորն է, որը պետք է ընդունի string տիպի տեքստ և վերագրի վերևի տեքստին։
     //Որ չկարողանանք BraceChecker-ի ոբյեկտը սարքենք առանց text տալու կոնստրուկտորի միջոցով։
     public BraceChecker(String text) {
@@ -14,7 +15,6 @@ public class BraceChecker {
 
     //սահիմնական մետոդն է, որի մեջ գռելու ենք ամբողջ լոգիկան․ աշխատելու ենք թե Stack  հետ թեվեռևի  text-ի հետ։
 
-    Stack1 stack = new Stack1();
 
     public void check() {
 
@@ -22,15 +22,8 @@ public class BraceChecker {
             char c = text.charAt(i);
             char end;
             switch (c) {
-
                 case '(':
-
-                    stack.push(c);
-                    break;
                 case '{':
-
-                    stack.push(c);
-                    break;
                 case '[':
                     stack.push(c);
                     break;
@@ -60,7 +53,6 @@ public class BraceChecker {
                     break;
 
                 default:
-
             }
         }
         char end;
