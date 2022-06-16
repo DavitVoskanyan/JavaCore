@@ -19,7 +19,7 @@ public class DynamicArray {
     }
 
     public boolean isEmpty() {
-        return equals(array);
+        return size == 0;
     }
 
     public int getByIndex(int index) {
@@ -46,16 +46,18 @@ public class DynamicArray {
     }
 
     public void add(int index, int value) {
-        for (int i = index; i < size; i++) {
-            array[index] = value;
-
+        for (int i = size; i >= index; i--) {
+            array[i] = array[i-1];
         }
         size++;
-    }
-    public void delete(int index) {
-        for (int i = index + 1; i < size; i++) {
-            array[i - 1] = array[i];
+        array[index] = value;
 
+
+    }
+
+    public void delete(int index) {
+        for (int i = index; i < size; i++) {
+            array[i-1 ] = array[i];
         }
         size--;
 

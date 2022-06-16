@@ -22,7 +22,7 @@ public class DynamicArrayDemo {
         System.out.println(da.set(5, 7));
         da.printArray();
         System.out.println();
-       da.add(1, 5);
+       da.add(2, 5);
     System.out.println();
         da.delete(7);
         da.printArray();
