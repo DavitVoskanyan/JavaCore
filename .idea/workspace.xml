@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="A">
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/AskMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/DefaultMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/DynStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/FixedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyClas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIFImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIFImp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/NestedIFDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/SharedConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestIface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestIface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/AccountBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/AnotherClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/Derived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/Protection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/SamePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/OtherPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/Protection2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/StudentStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/lesson13/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson13/C.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AFjEZvNzZbB9tyLBCoqSEXuhwg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marusya/IdeaProjects/JavaCore&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.DefaultMethodDemo">
+    <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.AskMe" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.DefaultMethodDemo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classwork.lesson12.CommandLine" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson12.CommandLine" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classwork.lesson14.IFTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classwork.lesson14.IFTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest2" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classwork.lesson14.IFTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest3" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.classwork.lesson12.CommandLine" />
+      <item itemvalue="Application.AskMe" />
+      <item itemvalue="Application.DefaultMethodDemo" />
+      <item itemvalue="Application.classwork.lesson14.IFTest" />
+      <item itemvalue="Application.classwork.lesson14.IFTest2" />
+      <item itemvalue="Application.classwork.lesson14.IFTest3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DefaultMethodDemo" />
+        <item itemvalue="Application.AskMe" />
+        <item itemvalue="Application.classwork.lesson14.IFTest3" />
+        <item itemvalue="Application.classwork.lesson14.IFTest2" />
+        <item itemvalue="Application.classwork.lesson14.IFTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="" />
+      <created>1654612117313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654612117313</updated>
+    </task>
+    <task id="LOCAL-00001" summary="BraceChecker">
+      <created>1654612354549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654612354549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DynamicArray">
+      <created>1655197346616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655197346616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DynamicArray">
+      <created>1655197658127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655197658127</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DynamicArray">
+      <created>1655198292885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198292886</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DynamicArray">
+      <created>1655198337501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198337501</updated>
+    </task>
+    <task id="LOCAL-00006" summary="A">
+      <created>1655707050412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655707050412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BraceChecker" />
+    <MESSAGE value="DynamicArray" />
+    <MESSAGE value="A" />
+    <option name="LAST_COMMIT_MESSAGE" value="A" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classwork/lesson12/Length.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaCore$BraceCheckerTest.ic" NAME="BraceCheckerTest Coverage Results" MODIFIED="1654711988048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>homework.BraceChecker.*</FILTER>
+    </SUITE>
+  </component>
+</project>
