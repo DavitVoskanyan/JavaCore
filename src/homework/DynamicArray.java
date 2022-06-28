@@ -40,6 +40,7 @@ public class DynamicArray {
 
     public int set(int index, int value) {
         for (int i = index; i < size; i++) {
+
             index = value;
         }
         return value;

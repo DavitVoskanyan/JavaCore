@@ -4,44 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="A">
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/AskMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/DefaultMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/DynStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/FixedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/IFTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyClas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIFImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/MyIFImp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/NestedIFDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/SharedConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestIface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/TestIface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/AccountBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/AnotherClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/mypack/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/Derived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/Protection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p1/SamePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/OtherPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson14/p2/Protection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/StudentStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/lesson13/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson13/C.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="IntStack">
+      <change afterPath="$PROJECT_DIR$/src/homework/books/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/BookStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/IntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/IntStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/MyIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/MyIF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/homework/DynamicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/homework/DynamicArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/lesson14/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson14/IntStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/DynamicArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +46,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Marusya/IdeaProjects/JavaCore&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DefaultMethodDemo">
+  <component name="RunManager" selected="Application.homework.books.BookDEmo">
     <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.lesson14.AskMe" />
       <module name="JavaCore" />
@@ -114,19 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classwork.lesson14.IFTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="classwork.lesson14.IFTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest2" />
       <module name="JavaCore" />
@@ -153,21 +112,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homework.books.BookDEmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.books.BookDEmo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.classwork.lesson12.CommandLine" />
       <item itemvalue="Application.AskMe" />
       <item itemvalue="Application.DefaultMethodDemo" />
-      <item itemvalue="Application.classwork.lesson14.IFTest" />
       <item itemvalue="Application.classwork.lesson14.IFTest2" />
       <item itemvalue="Application.classwork.lesson14.IFTest3" />
+      <item itemvalue="Application.homework.books.BookDEmo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework.books.BookDEmo" />
         <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.AskMe" />
         <item itemvalue="Application.classwork.lesson14.IFTest3" />
         <item itemvalue="Application.classwork.lesson14.IFTest2" />
-        <item itemvalue="Application.classwork.lesson14.IFTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655707050412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="IntStack">
+      <created>1656324196655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656324196656</updated>
+    </task>
+    <task id="LOCAL-00008" summary="IntStack">
+      <created>1656324274700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656324274700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +226,8 @@
     <MESSAGE value="BraceChecker" />
     <MESSAGE value="DynamicArray" />
     <MESSAGE value="A" />
-    <option name="LAST_COMMIT_MESSAGE" value="A" />
+    <MESSAGE value="IntStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntStack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
