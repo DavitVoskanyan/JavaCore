@@ -15,6 +15,17 @@ public class BookDEmo implements Command {
     private static AuthorStorage authorStorage = new AuthorStorage();
 
     public static void main(String[] args) {
+        String login;
+        String password;
+        login="admin";
+        password="12345";
+        System.out.println("please input login");
+        String login1=scanner.nextLine();
+        System.out.println("please input password");
+        String password1=scanner.nextLine();
+        if (!login1.equals(login)&&!password1.equals(password)){
+            System.out.println("Invalid login and password");
+        }
 
         boolean run = true;
         while (run) {
@@ -36,9 +47,8 @@ public class BookDEmo implements Command {
                 case PRINT_ALL_BOOKS:
                     bokStorage.print();
                     break;
-                case PRINT_BOOKS_BY_AUTHOR_NAME:
-                    AuthorAuthor();
-
+                case PRINT_BOOKS_BY_AUTHOR:
+                     authorStorage.print();
                     break;
                 case PRINT_BOOKS_BY_GENRE:
                     BookGenre();
@@ -50,7 +60,8 @@ public class BookDEmo implements Command {
                     addAuthor();
                     break;
                 case PRINT_ALL_AUTHOR:
-                    authorStorage.print();
+                   authorStorage.print();
+                    break;
                 default:
                     System.out.println("Invalid command , please try again ");
             }
@@ -58,7 +69,7 @@ public class BookDEmo implements Command {
     }
 
 
-    private static void AuthorAuthor() {
+    private static void changeBookAuthor() {
         bokStorage.print();
         System.out.println("please input Author index");
         int index = Integer.parseInt(scanner.nextLine());
@@ -82,7 +93,7 @@ public class BookDEmo implements Command {
 
             }catch (AuthorNotFoundException e){
                 System.out.println("please input correct index");
-                AuthorAuthor();
+                changeBookAuthor();
             }
         }
 
@@ -128,8 +139,6 @@ public class BookDEmo implements Command {
             Author author = authorStorage.getAuthorByIndex(authorIndex);
                 System.out.println("please input title");
                 String title = scanner.nextLine();
-                System.out.println("please input authorName");
-                String authorName = scanner.nextLine();
                 System.out.println("please input price");
                 String priceStr = scanner.nextLine();
                 System.out.println("please input count");
@@ -139,7 +148,7 @@ public class BookDEmo implements Command {
 
                 double price = Integer.parseInt(priceStr);
                 int counts = Integer.parseInt(count);
-                Book book = new Book(title, authorName, price, count, genre);
+                Book book = new Book(title, author, price, count, genre);
                 bokStorage.add(book);
                 System.out.println("THANK YOU");
             }catch (AuthorNotFoundException e){
@@ -150,7 +159,6 @@ public class BookDEmo implements Command {
     }
 
     private static void addAuthor() {
-        Author Author = null;
         System.out.println("please input name ");
         String name = scanner.nextLine();
         System.out.println("please input  surname");
@@ -159,7 +167,7 @@ public class BookDEmo implements Command {
         String email = scanner.nextLine();
         System.out.println("please input gender");
         String gender = scanner.nextLine();
-        if (gender.equals("MALE ") || gender.equals("FEMALE")) {
+        if (gender.equals("MALE") || gender.equals("FEMALE")) {
             Author author = new Author(name, surname, email, gender);
             authorStorage.add(author);
             System.out.println("author created");
