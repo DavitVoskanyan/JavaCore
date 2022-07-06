@@ -1,8 +1,8 @@
-package homework.books;
+package homework.books.model;
 
 public class Book {
     private String title;
-    private String authorName;
+    private String AuthorAuthor;
     private double price;
     private int count;
     private String genre;
@@ -15,12 +15,12 @@ public class Book {
         this.title = title;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getAuthorAuthor() {
+        return AuthorAuthor;
     }
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
+    public void setAuthorAuthor() {
+        this.setAuthorAuthor();
     }
 
     public double getPrice() {
@@ -51,18 +51,27 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "title='" + title + '\'' +
-                ", authorName='" + authorName + '\'' +
+                ", authorName='" + AuthorAuthor + '\'' +
                 ", price=" + price +
                 ", count=" + count +
                 ", genre='" + genre + '\'' +
                 '}';
     }
 
-    public Book(String title, String authorName, double price, String count, String genre) {
+    public Book(String title, String AuthorAuthor, double price, String count, String genre) {
         this.title = title;
-        this.authorName = authorName;
+        this.AuthorAuthor= AuthorAuthor;
         this.price = price;
         this.count = Integer.parseInt(count);
         this.genre = genre;
+    }
+
+    public Object AuthorAuthor() {
+        return null;
+    }
+
+    public Object AuthorName() {
+
+return null;
     }
 }

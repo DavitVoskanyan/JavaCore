@@ -4,16 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="IntStack">
-      <change afterPath="$PROJECT_DIR$/src/homework/books/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/BookStorage.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="Book">
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/Exc0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/Exc1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/Exc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/HandleError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/MethNestTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/MultipleCatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/NestTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/SuperSubCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/exeption/LessonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/model/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/students/storage/LessonStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/exeption/AuthorNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/storage/AuthorStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/IntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/IntStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/MyIF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/lesson14/MyIF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/homework/DynamicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/homework/DynamicArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/lesson14/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson14/IntStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/StudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/StudentStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/students/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/students/StudentStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/storage/StudentStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/books/BookStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/storage/BookStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +63,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Marusya/IdeaProjects/JavaCore&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="classwork.students.storage" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.homework.books.BookDEmo">
     <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.lesson14.AskMe" />
@@ -53,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDEmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.books.BookDEmo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.books.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson15.Exc2" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.students.StudentDemo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="classwork.lesson12.CommandLine" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.lesson12.CommandLine" />
       <module name="JavaCore" />
@@ -86,60 +147,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classwork.lesson14.IFTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest2" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="classwork.lesson14.IFTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson14.IFTest3" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework.books.BookDEmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.books.BookDEmo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.books.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.classwork.lesson12.CommandLine" />
+      <item itemvalue="Application.homework.books.BookDEmo" />
+      <item itemvalue="Application.Exc2" />
+      <item itemvalue="Application.StudentDemo" />
       <item itemvalue="Application.AskMe" />
       <item itemvalue="Application.DefaultMethodDemo" />
-      <item itemvalue="Application.classwork.lesson14.IFTest2" />
-      <item itemvalue="Application.classwork.lesson14.IFTest3" />
-      <item itemvalue="Application.homework.books.BookDEmo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.homework.books.BookDEmo" />
+        <item itemvalue="Application.StudentDemo" />
+        <item itemvalue="Application.Exc2" />
         <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.AskMe" />
-        <item itemvalue="Application.classwork.lesson14.IFTest3" />
-        <item itemvalue="Application.classwork.lesson14.IFTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656324274700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Book">
+      <created>1656418949251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656418949251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +256,8 @@
     <MESSAGE value="DynamicArray" />
     <MESSAGE value="A" />
     <MESSAGE value="IntStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntStack" />
+    <MESSAGE value="Book" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

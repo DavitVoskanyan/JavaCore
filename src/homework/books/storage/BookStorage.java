@@ -1,7 +1,7 @@
-package homework.books;
+package homework.books.storage;
 
 
-
+import homework.books.model.Book;
 
 public class BookStorage {
 
@@ -28,37 +28,39 @@ public class BookStorage {
 
     public void print() {
         for (int i = 0; i < size; i++) {
-            System.out.println(  array[i] + " ");
+            System.out.println(array[i] + " ");
 
         }
     }
 
 
-
-
-    public void price(double minprince, double maxprice) {
+    public void priceRangeSearch(double minPrince, double maxPrice) {
 
         for (int i = 0; i < size; i++) {
             Book book = array[i];
-            if (book.getPrice() >= minprince && book.getPrice() <= maxprice) {
+            if (book.getPrice() >= minPrince && book.getPrice() <= maxPrice) {
                 System.out.println(book);
             }
         }
     }
 
-    public void bookAuthorNAme(String authorName) {
+    public void bookAuthorName(String AuthorName) {
         for (int i = 0; i < size; i++) {
-        if (array[i] .getAuthorName().equals(authorName)) {
-            System.out.println(array[i]);
-        }
-    }
-}
-public void bookGenre(String genre){
-    for (int i = 0; i < size; i++) {
-        if (array[i].getGenre().equals(genre)){
-            System.out.println(array[i]);
+            if (array[i].AuthorName().equals(AuthorName)) {
+                System.out.println(array[i]);
+            }
         }
     }
 
-}
+    public void bookGenre(String genre) {
+        for (int i = 0; i < size; i++) {
+            if (array[i].getGenre().equals(genre)) {
+                System.out.println(array[i]);
+            }
+        }
+
+    }
+
+
+
 }
