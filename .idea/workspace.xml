@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="Author">
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/ChainExcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/FinallyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/MultiCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/ThrowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson15/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="Apple">
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Answers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AskMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/UnboxingError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Wrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/books/enums/Gender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/lesson16/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson16/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/model/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +61,39 @@
       <recent name="classwork.students.storage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework.books.BookDEmo">
+  <component name="RunManager" selected="Application.BookDEmo">
+    <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson16.AskMe" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutBox3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson16.AutBox3" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookDEmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.books.BookDEmo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.books.model.*" />
+          <option name="PATTERN" value="homework.books.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson15.Exc2" />
+    <configuration name="EnumDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson16.EnumDemo3" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.lesson15.*" />
+          <option name="PATTERN" value="classwork.lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,38 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson15.FinallyDemo" />
+    <configuration name="EnumDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson16.EnumDemo4" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.lesson15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.students.StudentDemo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.students.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson15.ThrowDemo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson15.*" />
+          <option name="PATTERN" value="classwork.lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +142,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.classwork.lesson12.CommandLine" />
-      <item itemvalue="Application.homework.books.BookDEmo" />
-      <item itemvalue="Application.Exc2" />
-      <item itemvalue="Application.FinallyDemo" />
-      <item itemvalue="Application.StudentDemo" />
-      <item itemvalue="Application.ThrowDemo" />
+      <item itemvalue="Application.AutBox3" />
+      <item itemvalue="Application.BookDEmo" />
+      <item itemvalue="Application.EnumDemo3" />
+      <item itemvalue="Application.EnumDemo4" />
+      <item itemvalue="Application.AskMe" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework.books.BookDEmo" />
-        <item itemvalue="Application.FinallyDemo" />
-        <item itemvalue="Application.ThrowDemo" />
-        <item itemvalue="Application.StudentDemo" />
-        <item itemvalue="Application.Exc2" />
+        <item itemvalue="Application.BookDEmo" />
+        <item itemvalue="Application.AutBox3" />
+        <item itemvalue="Application.AskMe" />
+        <item itemvalue="Application.EnumDemo4" />
+        <item itemvalue="Application.EnumDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657094709536</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Apple">
+      <created>1657133256527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657133256527</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +265,8 @@
     <MESSAGE value="IntStack" />
     <MESSAGE value="Book" />
     <MESSAGE value="Author" />
-    <option name="LAST_COMMIT_MESSAGE" value="Author" />
+    <MESSAGE value="Apple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apple" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
