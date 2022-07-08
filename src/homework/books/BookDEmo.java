@@ -189,14 +189,14 @@ public class BookDEmo implements Command {
             System.out.println(value + " ");
 
         }
-        Gender gender = null;
+        Gender gender ;
         try {
             gender = Gender.valueOf(scanner.nextLine());
         } catch (IllegalArgumentException e) {
-            gender();
+
             System.out.println("no such option:try again");
 
         }
-        return gender;
+        return gender();
     }
 }

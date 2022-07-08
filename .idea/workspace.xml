@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="Apple">
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Answers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AskMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/AutBox5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/UnboxingError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Wrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/lesson16/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson16/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson16/EnumDemo.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="enums">
       <change beforePath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657133256527</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="enums">
+      <created>1657304782685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657304782685</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +256,8 @@
     <MESSAGE value="Book" />
     <MESSAGE value="Author" />
     <MESSAGE value="Apple" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apple" />
+    <MESSAGE value="enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
