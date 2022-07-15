@@ -1,23 +1,25 @@
 package classwork.students.storage;
 
-import classwork.students.exeption.LessonNotFoundException;
-import classwork.students.model.Lesson;
+
+import classwork.students.model.Student;
+import classwork.students.model.User;
 
 
-public class LessonStorage {
-    private Lesson[] array = new Lesson[10];
+public class UserStorage {
+
+    private User[] array = new User[10];
     private int size = 0;
 
-    public void add(Lesson lesson) {
+    public void add(User user) {
         if (size == array.length) {
             increaseArray();
         }
 
-        array[size++] =lesson;
+        array[size++] = user;
     }
 
     private void increaseArray() {
-        Lesson[] temp = new Lesson[array.length + 10];
+        User[] temp = new User[array.length + 10];
         System.arraycopy(array, 0, temp, 0, array.length);
         array = temp;
     }
@@ -45,17 +47,17 @@ public class LessonStorage {
             System.out.println("Index out of bounds");
     }
 
-
-
-    public Lesson getLessonByIndex (  int index) throws LessonNotFoundException {
-        if (index >= 0 && index < size) {
-            return array[index];
-        } else {
-            throw new LessonNotFoundException("Lesson with " + index + " index does not exists");
+    public User getUserByEmailAndPassword(String email) {
+        for (int i = 0; i < size; i++) {
+            if (array[i].getEmail().equals(email)) {
+                return array[i];
+            }
         }
+        return null;
     }
-
 }
+
+
 
 
 

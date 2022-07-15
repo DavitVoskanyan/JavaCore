@@ -1,25 +1,24 @@
 package homework.books.storage;
 
 
-import homework.books.exeption.AuthorNotFoundException;
-import homework.books.model.Author;
+import homework.books.model.User;
 
-public class AuthorStorage {
-    private Author[] array = new Author[10];
+public class UserStorage {
+    private User[] array = new User[10];
     private int size = 0;
 
 
-    public void add(Author Author) {
+    public void add(User User) {
         if (size == array.length) {
             increaseArray();
         }
 
 
-        array[size++] = Author;
+        array[size++] = User;
     }
 
     private void increaseArray() {
-        Author[] temp = new Author[array.length + 10];
+        User[] temp = new User[array.length + 10];
         System.arraycopy(array, 0, temp, 0, array.length);
         array = temp;
 
@@ -33,9 +32,9 @@ public class AuthorStorage {
     }
 
 
-    public void bookAuthorAuthor(String AuthorAuthor) {
+    public void bookUserUser(String UserUser) {
         for (int i = 0; i < size; i++) {
-            if (array[i].AuthorAuthor().equals(AuthorAuthor)) {
+            if (array[i].UserUser().equals(UserUser)) {
                 System.out.println(array[i]);
             }
         }
@@ -49,7 +48,7 @@ public class AuthorStorage {
             }
 
             size--;
-            System.out.println("lesson deleted");
+            System.out.println("author deleted");
         } else
             System.out.println("Index out of bounds");
     }
@@ -59,15 +58,16 @@ public class AuthorStorage {
         return size;
     }
 
-    public Author getAuthorByIndex(int authorIndex) throws AuthorNotFoundException {
-
-        int index = 0;
-        if (index >= 0 && index < size) {
-            return array[index];
-        } else {
-            throw new AuthorNotFoundException("author with" + index + "index does not exists");
+    public User getUserByEmail(String email) {
+        for (int i = 0; i < size; i++) {
+            if (array[i].getEmail().equals(email)){
+                return array[i];
+            }
         }
+      return null;
 
     }
 
 }
+
+

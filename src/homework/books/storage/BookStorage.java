@@ -20,10 +20,9 @@ public class BookStorage {
 
     private void increaseArray() {
         Book[] temp = new Book[array.length + 10];
-        for (int i = 0; i < size; i++) {
-            temp[i] = array[1];
-        }
+        System.arraycopy(array, 0, temp, 0, array.length);
         array = temp;
+
     }
 
     public void print() {

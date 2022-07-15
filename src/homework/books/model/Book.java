@@ -6,6 +6,19 @@ public class Book {
     private double price;
     private int count;
     private String genre;
+    private User user;
+
+    public Book() {
+    }
+
+    public Book(String title, Author author, double price, int count, String genre, User user) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        this.count = count;
+        this.genre = genre;
+        this.user = user;
+    }
 
     public String getTitle() {
         return title;
@@ -15,12 +28,12 @@ public class Book {
         this.title = title;
     }
 
-    public Author getAuthor () {
-        return  author;
+    public Author getAuthor() {
+        return author;
     }
 
-    public void setAuthorAuthor() {
-        this.setAuthorAuthor();
+    public void setAuthor(Author author) {
+        this.author = author;
     }
 
     public double getPrice() {
@@ -47,31 +60,28 @@ public class Book {
         this.genre = genre;
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
                 "title='" + title + '\'' +
-                ", author='" +  author + '\'' +
+                ", author=" + author +
                 ", price=" + price +
                 ", count=" + count +
                 ", genre='" + genre + '\'' +
+                ", user=" + user +
                 '}';
-    }
-
-    public Book(String title,  Author author, double price, String count, String genre) {
-        this.title = title;
-        this.author = author;
-        this.price = price;
-        this.count = Integer.parseInt(count);
-        this.genre = genre;
-    }
-
-    public Object AuthorAuthor() {
-        return null;
     }
 
     public Object AuthorName() {
 
-return null;
+        return null;
     }
 }
