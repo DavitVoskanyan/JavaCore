@@ -4,39 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="enums">
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/Meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson16/MyAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/AssertDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/BRRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/BRReadLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/CopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/Hypot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/PrintWriterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/ShowFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/TinyEdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/WriteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/students/storage/UserStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/books/storage/UserStorage.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="ShowFile">
+      <change afterPath="$PROJECT_DIR$/src/homework/fileutil/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/fileutil/testfolder/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCore/classwork/students/StudentDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/StudentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/students/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/students/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/students/storage/LessonStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/storage/LessonStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/students/storage/StudentStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/students/storage/StudentStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/BookDEmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/storage/AuthorStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/storage/AuthorStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/books/storage/BookStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/books/storage/BookStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +46,46 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="classwork.students.model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marusya\IdeaProjects\JavaCore\src\homework\fileutil\testfolder" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="classwork.students.storage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssertDemo">
+  <component name="RunManager" selected="Application.FileUtil">
     <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.lesson17.AssertDemo" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDEmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.books.BookDEmo" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.fileutil.FileUtil" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.fileutil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,47 +132,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classwork.lesson17.PrintWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson17.PrintWriterDemo" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="classwork.lesson17.ShowFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson17.ShowFile" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.classwork.lesson12.CommandLine" />
       <item itemvalue="Application.AssertDemo" />
+      <item itemvalue="Application.BookDEmo" />
+      <item itemvalue="Application.FileUtil" />
       <item itemvalue="Application.classwork.lesson17.CopyFile" />
       <item itemvalue="Application.classwork.lesson17.InstanceOf" />
-      <item itemvalue="Application.classwork.lesson17.PrintWriterDemo" />
-      <item itemvalue="Application.classwork.lesson17.ShowFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileUtil" />
+        <item itemvalue="Application.BookDEmo" />
         <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.classwork.lesson17.InstanceOf" />
         <item itemvalue="Application.classwork.lesson17.CopyFile" />
-        <item itemvalue="Application.classwork.lesson17.ShowFile" />
-        <item itemvalue="Application.classwork.lesson17.PrintWriterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657306059496</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ShowFile">
+      <created>1657883603606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657883603606</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +280,8 @@
     <MESSAGE value="Author" />
     <MESSAGE value="Apple" />
     <MESSAGE value="enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="enums" />
+    <MESSAGE value="ShowFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShowFile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
