@@ -3,16 +3,17 @@ package homework.fileutil;
 import java.io.*;
 import java.util.Scanner;
 
+
 public class FileUtil {
     private static Scanner scanner = new Scanner(System.in);
 
 
     public static void main(String[] args) throws IOException {
         // fileSearch();
-         contentSearch();
-        //findLines();
-        //  printSizeOfPackage();
-        // createFileWithContent();
+        //contentSearch();
+        findLines();
+        //printSizeOfPackage();
+        //createFileWithContent();
     }
 
     //այս մեթոդը պետք է սքաններով վերցնի երկու string.
@@ -25,7 +26,7 @@ public class FileUtil {
         System.out.println("Pleas input getName");
         String fileName = scanner.nextLine();
 
-        File myFile = new File(path + fileName);
+        File myFile = new File(path, fileName);
         System.out.println(myFile.exists());
 
     }
@@ -72,30 +73,32 @@ public class FileUtil {
     // 1 - txtPath txt ֆայլի փաթը
     // 2 - keyword - ինչ որ բառ
     // տալու ենք txt ֆայլի տեղը, ու ինչ որ բառ, ինքը տպելու է էն տողերը, որտեղ գտնի էդ բառը։
-    static void findLines() throws IOException {
-        System.out.println("please input file ");
-        String txtPath = scanner.nextLine();
-        System.out.println("please input keyword ,you search in file");
+    static void findLines() {
+        System.out.println("Please input file path");
+        String filePath = scanner.nextLine();
+        System.out.println("please input keyword for search");
         String keyword = scanner.nextLine();
-        File myFile = new File(txtPath);
-        if (myFile.isDirectory()) {
-            File[] myFile1 = myFile.listFiles();
-            for (File file : myFile1) {
-                DataInputStream inputStream = new DataInputStream(new FileInputStream(txtPath));
-                BufferedReader bufferedReader = new BufferedReader(new FileReader(txtPath));
-                String line = null;
-                while ((line = bufferedReader.readLine()) != null) {
+
+        File file = new File(filePath);
+        if (file.exists() && file.isFile()
+                && file.getName().endsWith(".txt")) {
+
+            try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+                String line;
+                int lineCount = 1;
+                while ((line = br.readLine()) != null) {
                     if (line.contains(keyword)) {
-                        System.out.println(line);
+                        line = line.replaceAll(keyword, "\u001B[33m" + keyword + "\u001B[0m");
+                        System.out.println(lineCount + "-> " + line);
                     }
-
+                    lineCount++;
                 }
-
-
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
-    }
 
+    }
     //այս մեթոդը պետք է սքաններով վերցնի մեկ string.
     // 1 - path թե որ ֆոլդերի չափն ենք ուզում հաշվել
     // ֆոլդերի բոլոր ֆայլերի չափսերը գումարում ենք իրար, ու տպում
@@ -103,13 +106,15 @@ public class FileUtil {
         System.out.println("please input folder path");
         String folder = scanner.nextLine();
         File file = new File(folder);
-        File[] files = file.listFiles();
-        if (file != null) {
-            int size = 0;
+
+        if (file.exists()&&file.isDirectory()) {
+            long  size = 0;
             for (File file1 : file.listFiles()) {
-                size += file1.length();
+                if (file1.isFile()){
+                    size+=file1.length();
+                }
             }
-            System.out.println("Size of all files:" + size);
+            System.out.println("Size of all files:" + (size/(1024*1024))+"mb");
         }
 
     }
@@ -119,37 +124,36 @@ public class FileUtil {
     // 2 - fileName ֆայլի անունը, թե ինչ անունով ֆայլ է սարքելու
     // 3 - content ֆայլի պարունակությունը։ Այսինքն ստեղծված ֆայլի մեջ ինչ է գրելու
     // որպես արդյունք պապկի մեջ սարքելու է նոր ֆայլ, իրա մեջ էլ լինելու է content-ով տվածը
-    static void createFileWithContent() {
+    static void createFileWithContent() throws IOException {
 
-        System.out.println("please input path");
-        String path = scanner.nextLine();
-        System.out.println("please input fileName");
-        path = path + scanner.next();
+
+        System.out.println("Please input directory path");
+        String directoryPath = scanner.nextLine();
+        System.out.println("Please input file name");
         String fileName = scanner.nextLine();
-        System.out.println("please input content");
-        String content = scanner.nextLine();
-        File file = new File(path);
-        boolean result = false;
-        try {
-            result = file.createNewFile();
-        } catch (IOException e) {
-            e.getMessage();
-        }
-        DataOutputStream out = null;
-        try {
-            out = new DataOutputStream(new FileOutputStream(path));
-        } catch (FileNotFoundException e) {
-            e.getMessage();
-        }
-        try {
-            out.writeBytes(content);
-        } catch (IOException e) {
-            e.getMessage();
+        System.out.println("Please input file content");
+        String fileContent = scanner.nextLine();
 
+        File directory = new File(directoryPath);
+        if (directory.exists()) {
+            fileName = fileName.endsWith(".txt") ? fileName : fileName + ".txt";
+            File newFile = new File(directory, fileName);
+            if (!newFile.exists()) {
+                try {
+                    newFile.createNewFile();
+                    try (BufferedWriter bw = new BufferedWriter(new FileWriter(newFile))) {
+                        bw.write(fileContent);
+                        System.out.println("File is ready!");
+                    }
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            } else {
+                System.out.println("Please input fileName that is not exists");
+            }
+        } else {
+            System.out.println("Please input correct directory");
         }
+
     }
-
-
 }
-
-
