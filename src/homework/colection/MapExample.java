@@ -5,13 +5,11 @@ import java.util.*;
 public class MapExample {
 
     public static void main(String[] args) {
-removeFromMap(new HashMap<> ());
-     //   createFootballTeam(new ArrayList<>());
-        //  printAllMembers(new LinkedHashMap<>());
-        // printAllMemberNames(new HashMap<>());
+        removeFromMap(new HashMap<>());
+          createFootballTeam(new ArrayList<>());
+         printAllMembers(new LinkedHashMap<>());
+         printAllMemberNames(new HashMap<>());
     }
-
-
 
 
     //Ունենք FootballTeamMember-ի լիստ, պետք է ստանանք HashMap որտեղ կեյ-ը կլինի խաղացողի համարը, իսկ վելյուն իրա անունը։
@@ -23,7 +21,9 @@ removeFromMap(new HashMap<> ());
         createFootballTeam.put(11, "Karen");
         createFootballTeam.put(12, "Zaven");
         for (Map.Entry<Integer, String> entry : createFootballTeam.entrySet()) {
-            if (members.equals(createFootballTeam)) ;
+            if (members.equals(createFootballTeam)) {
+
+            }
             System.out.println(createFootballTeam);
 
         }
@@ -32,9 +32,9 @@ removeFromMap(new HashMap<> ());
 
     //Մեթոդի մեջ պետք է տրված մապ-ից ջնջենք removedNumber համարը եթե կա, ու վերադարձնենք true, եթե չկա վերադարձնենք false
     public static boolean removeFromMap(Map<Integer, String> memberMap) {
-        Map<Integer, String> member=new HashMap<>();
+        Map<Integer, String> member = new HashMap<>();
         member.put(77, "Aram");
-        System.out.println(member.remove(77,"Aram"));
+        System.out.println(member.remove(77, "Aram"));
         return false;
     }
 

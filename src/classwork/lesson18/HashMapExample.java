@@ -18,7 +18,7 @@ public class HashMapExample {
         }
         Set<Integer>integers=names.keySet();
         for (Integer integer : integers) {
-            System.out.println(integer);
+            System.out.println(integer  );
         }
     }
 }

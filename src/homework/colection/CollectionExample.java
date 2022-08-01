@@ -1,9 +1,10 @@
 package homework.colection;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
+
 
 public class CollectionExample {
 
@@ -16,11 +17,13 @@ public class CollectionExample {
     static  List<String> arrayToList(String[] values) {
 
 
+
         return null;
     }
 
     //մեթոդը գրել այնպես, որ կանչենք ու տանք ինչ որ լիստ, ու ինդեքս, ինքը ջնջե էդ ինդեքսի տակ գտնվող էլեմենտը, ու վերադարձնե նույն լիստը, առանց էդ էլեմենտի։
     static List<String> removeById(List<String> list, int index) {
+
         return null;
     }
 

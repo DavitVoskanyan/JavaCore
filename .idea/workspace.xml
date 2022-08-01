@@ -4,42 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="FileUtil">
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson17/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/BoundWildcard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/BoundsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/Cords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/FourD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/Gen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/Gen2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/GenCons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/GenConsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/GenDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/GenIFDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/GenMethDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/HierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/HierDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/NonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/NonGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/PriorityQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/RawDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/SimpGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/Stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/StorageDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/ThreeD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/TwoD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/TwoGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/lesson18/WildcardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/colection/CollectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/colection/MapExample.java" afterDir="false" />
+    <list default="true" id="6d4f2d75-2bc7-4f33-a8a3-108a34ab0bb8" name="Changes" comment="MapExample">
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Caller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Callme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/CurrentThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/DemoJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/ExtendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/MultiThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/NewThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/NewThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/PCFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/SuspendResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/Synch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classwork/lesson19/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/fileutil/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/fileutil/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/lesson18/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork/lesson18/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/colection/CollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/colection/CollectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/colection/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/colection/MapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +73,13 @@
       <recent name="classwork.students.storage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="FileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.fileutil.FileUtil" />
+  <component name="RunManager" selected="Application.SuspendResume">
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson19.Deadlock" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.fileutil.*" />
+          <option name="PATTERN" value="classwork.lesson19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson18.HashMapExample" />
+    <configuration name="PCFixed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson19.PCFixed" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.lesson18.*" />
+          <option name="PATTERN" value="classwork.lesson19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.colection.MapExample" />
+    <configuration name="SuspendResume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson19.SuspendResume" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.colection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson18.PriorityQueueExample" />
-      <module name="JavaCore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.lesson18.*" />
+          <option name="PATTERN" value="classwork.lesson19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classwork.lesson18.RawDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.lesson18.RawDemo" />
+    <configuration name="classwork.lesson19.PC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson19.PC" />
       <module name="JavaCore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.lesson18.*" />
+          <option name="PATTERN" value="classwork.lesson19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classwork.lesson19.Synch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.lesson19.Synch" />
+      <module name="JavaCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.lesson19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.classwork.lesson12.CommandLine" />
-      <item itemvalue="Application.FileUtil" />
-      <item itemvalue="Application.HashMapExample" />
-      <item itemvalue="Application.MapExample" />
-      <item itemvalue="Application.PriorityQueueExample" />
-      <item itemvalue="Application.classwork.lesson18.RawDemo" />
+      <item itemvalue="Application.Deadlock" />
+      <item itemvalue="Application.PCFixed" />
+      <item itemvalue="Application.SuspendResume" />
+      <item itemvalue="Application.classwork.lesson19.PC" />
+      <item itemvalue="Application.classwork.lesson19.Synch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.FileUtil" />
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.PriorityQueueExample" />
-        <item itemvalue="Application.classwork.lesson18.RawDemo" />
+        <item itemvalue="Application.SuspendResume" />
+        <item itemvalue="Application.Deadlock" />
+        <item itemvalue="Application.PCFixed" />
+        <item itemvalue="Application.classwork.lesson19.PC" />
+        <item itemvalue="Application.classwork.lesson19.Synch" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658423230434</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="MapExample">
+      <created>1659119170870</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659119170870</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +316,8 @@
     <MESSAGE value="enums" />
     <MESSAGE value="ShowFile" />
     <MESSAGE value="FileUtil" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileUtil" />
+    <MESSAGE value="MapExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="MapExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
