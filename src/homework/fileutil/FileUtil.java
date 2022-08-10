@@ -1,6 +1,7 @@
 package homework.fileutil;
 
 import java.io.*;
+import java.util.Date;
 import java.util.Scanner;
 
 
@@ -9,11 +10,13 @@ public class FileUtil {
 
 
     public static void main(String[] args) throws IOException {
-        // fileSearch();
-        //contentSearch();
+        Date now = new Date();
+        System.out.println(now);
+        fileSearch();
+        contentSearch();
         findLines();
-        //printSizeOfPackage();
-        //createFileWithContent();
+        printSizeOfPackage();
+        createFileWithContent();
     }
 
     //այս մեթոդը պետք է սքաններով վերցնի երկու string.

@@ -1,30 +1,29 @@
 package homework.colection;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+
+import java.util.*;
 
 
 public class CollectionExample {
 
     public static void main(String[] args) {
-
+        String[] values = {"aram", "zaven", "babken"};
+        System.out.println(arrayToList(values));
 
     }
 
     //մեթոդը գրել այնպես, որ կանչենք, ու իրան ստրինգների մասիվ տանք, ինքը վերադարձնի նույն էլեմենտներով ArrayList
-    static  List<String> arrayToList(String[] values) {
+    static List<String> arrayToList(String[] values) {
+        List<String> list = Arrays.asList(values);
 
 
-
-        return null;
+        return new ArrayList<>((list));
     }
 
     //մեթոդը գրել այնպես, որ կանչենք ու տանք ինչ որ լիստ, ու ինդեքս, ինքը ջնջե էդ ինդեքսի տակ գտնվող էլեմենտը, ու վերադարձնե նույն լիստը, առանց էդ էլեմենտի։
     static List<String> removeById(List<String> list, int index) {
-
-        return null;
+        list.remove(index);
+        return list;
     }
 
     // մեթոդը գրել այնպես, որ ընդունի ցանկացած String-ների լիստ, վերադարձնի նույն արժեքներով HashSet
